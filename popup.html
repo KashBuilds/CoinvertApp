@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Coinvert</title>
+  <style>
+    .logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+    body {
+      font-family: sans-serif;
+      min-width: 260px;
+      padding: 15px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.light {
+      background-color: white;
+      color: black;
+    }
+
+    body.dark {
+      background-color: #121212;
+      color: white;
+    }
+
+    .section {
+      margin-bottom: 12px;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #888;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .link {
+      text-decoration: none;
+      color: #1da1f2;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .link img {
+      height: 14px;
+      width: 14px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+  <img src="icons/coinvert-logo.png" alt="Coinvert Logo" class="logo" />
+</div>
+
+  <div class="section">
+    <label>
+      Enable SOL Mode
+      <input type="checkbox" id="toggleSolanaMode">
+    </label>
+
+    <label>
+      Show Original Price on Hover
+      <input type="checkbox" id="toggleTooltip">
+    </label>
+
+    <label>
+      Enable Dark Mode
+      <input type="checkbox" id="toggleDarkMode">
+    </label>
+  </div>
+
+  <div class="section footer">
+    <span id="status">Settings saved</span>
+    <span id="solPrice">SOL = ◎...</span>
+  </div>
+
+  <div class="section">
+    <a class="link" href="https://twitter.com/CoinvertApp" target="_blank">
+      <img src="https://abs.twimg.com/favicons/twitter.2.ico" />
+      @CoinvertApp
+    </a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
