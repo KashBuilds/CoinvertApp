@@ -40,7 +40,7 @@ git clone https://github.com/Coinvert/CoinvertApp.git
 cd CoinvertApp
 ```
 # Load into Chrome:
-# - Visit chrome://extensions
-# - Enable "Developer mode"
-# - Click "Load unpacked"
-# - Select the project folder
+- Visit chrome://extensions
+- Enable "Developer mode"
+- Click "Load unpacked"
+- Select the project folder
