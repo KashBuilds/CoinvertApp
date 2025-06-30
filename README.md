@@ -27,7 +27,7 @@ It runs entirely within your browser and requires no wallet, login, or account.
 ## 🧪 Live Demo
 
 Try it now: [coinvertapp.com](https://coinvertapp.com)  
-Chrome Store: *(link coming soon)*
+Chrome Store: [Coinvert](https://chromewebstore.google.com/detail/bfnjhegllnjjjkagicmeiagcbmpolnhp?utm_source=item-share-cb)
 
 ---
 
